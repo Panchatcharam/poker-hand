@@ -1,4 +1,4 @@
-###Scope
+### Scope
 This is a sample application to compare poker hands and determine the winner based on the following rules, Poker hands are ranked by the
 following partial order from lowest to highest.
 
@@ -27,14 +27,14 @@ Ranked by the value of the 3 cards.
 highest card in the hand.
 
 
-###How To Build this Application
+### How To Build this Application
 ```$xslt
 #cd build
 #cmake ../
 #make
 ```
 
-###How to run this application
+### How to run this application
 Note:- Follow the steps as outlined above to build this application.
 ```$xslt
 #cd source
@@ -47,7 +47,7 @@ The output on terminal as below,
 
 `White wins - with High Card : Ace`
 
-###To run gtest
+### To run gtest
 ```$xslt
 #cd poker-hand/test/build
 #cmake ../
@@ -80,5 +80,5 @@ The output on terminal as below,
  - Add more gtest cases and invoke it properly from Cmake
  - Update CMake to build platform specific binaries (at the moment it generates only MacOs/Linus binaries)
 
-###Prerequisites
+### Prerequisites
 Before building the application please ensure the system has Cmake and its dependencies installed.
